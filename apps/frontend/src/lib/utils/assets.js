@@ -1,4 +1,8 @@
-import { ASSETS } from "./constants"
+export const ASSETS = {
+    BASEMAP: 'BaseMap',
+    CHIMNEY_SMOKE: 'ChimneySmoke',
+    TEST: 'Test'
+}
 
 export default [
     { alias: ASSETS.BASEMAP, src: 'example_map.png' },

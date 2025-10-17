@@ -7,9 +7,3 @@ export const STATE = {
 
 export const MAP_WIDTH = 4434;
 export const MAP_HEIGHT = 2470;
-
-export const ASSETS = {
-    BASEMAP: 'BaseMap',
-    CHIMNEY_SMOKE: 'ChimneySmoke',
-    TEST: 'Test'
-}

@@ -1,6 +1,6 @@
 <script>
-    import AnimatedSprite from "../AnimatedSprite.svelte";
-    import { ASSETS } from "$lib/utils/constants";
+    import AnimatedSprite from "$lib/components/base/AnimatedSprite.svelte";
+    import { ASSETS } from "$lib/utils/assets";
 
     const assets = [
         'Charger_0',

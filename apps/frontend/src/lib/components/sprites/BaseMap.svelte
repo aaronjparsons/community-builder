@@ -1,6 +1,6 @@
 <script>
-    import Sprite from "../Sprite.svelte";
-    import { ASSETS } from "$lib/utils/constants";
+    import Sprite from "$lib/components/base/Sprite.svelte";
+    import { ASSETS } from "$lib/utils/assets";
 </script>
 
 <Sprite asset={ASSETS.BASEMAP} />

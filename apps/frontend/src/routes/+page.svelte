@@ -10,6 +10,10 @@
     // Game components
     import BaseMap from '$lib/components/sprites/BaseMap.svelte';
     import Test from '$lib/components/sprites/Test.svelte';
+    import Areas from '$lib/components/Areas.svelte';
+
+    // DEBUG
+    import DebugDrawer from '$lib/components/DebugDrawer.svelte';
 
     let container;
     let mapControls;
@@ -98,8 +102,12 @@
     {:else if context.state === STATE.ERROR}
         <p class="absolute top-2 left-2 text-red-500">Error initializing application</p>
     {:else if context.state === STATE.READY}
+        <!--  -->
+        <DebugDrawer />
+        <!--  -->
         <BaseMap />
         <Test />
+        <Areas />
     {/if}
 </div>
 
