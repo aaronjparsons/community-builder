@@ -1,0 +1,16 @@
+{
+    "name": "community-builder",
+    "private": true,
+    "version": "0.0.1",
+    "workspaces": [
+        "apps/frontend",
+        "apps/backend",
+        "packages/*"
+    ],
+    "scripts": {
+        "dev": "concurrently \"npm run dev --workspace=apps/frontend\" \"npm run dev --workspace=apps/backend\""
+    },
+    "devDependencies": {
+        "concurrently": "^9.1.2"
+    }
+}
